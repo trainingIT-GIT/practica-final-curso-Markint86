@@ -43,7 +43,7 @@ Ten en cuenta lo siguiente:
 
 `git log --oneline --branches --graph --remotes`
 - **¿Qué comando has lanzado para crear el alias?**
-git config --global alias.milog "log --oneline --branches --graph"
+git config --local alias.milog "log --oneline --branches --graph"
 
 
 2. - **¿Están las dos ramas del repositorio trackeando las correspondientes ramas remotas? ¿Qué comando has usado para averiguarlo?**
