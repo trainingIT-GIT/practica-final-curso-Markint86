@@ -43,8 +43,12 @@ Ten en cuenta lo siguiente:
 
 `git log --oneline --branches --graph --remotes`
 - **¿Qué comando has lanzado para crear el alias?**
+git config --global alias.milog "log --oneline --branches --graph"
+
 
 2. - **¿Están las dos ramas del repositorio trackeando las correspondientes ramas remotas? ¿Qué comando has usado para averiguarlo?**
+Si, tanto la rama develop como la rama main estan siendo trackeadas. Lo he comprobado usando  el comando **git branch -avv**
+
 
 3. - Modifica el texto de los botones iniciales de login en `src/Library.java`:
 · Sustituye "Librarian Login" por "Log in as librarian".
