@@ -85,6 +85,8 @@ Creo que el comando es un rebase interactivo , **git rebase -i HEAD~3** pero no 
 9. - Mueve HEAD hasta el _commit_ que creaste en el punto 5 y comprueba que los archivos .sql tenían aún las tablas con ENGINE=InnoDB (lo cambiaste dos puntos después).
 - Ahora vuelve a mover HEAD al _commit_ en el que estabas.
 - **¿Qué comando has lanzado para hacer esto último?**
+Para volver el HEAD al commit en el que estaba he usado **git checkout develop** que me volvia a la rama develop, la cual apunta al commit en el que estaba inicialmente (también podría haber puesto el hash de dicho commit en vez de develop después de checkout pero estaría en deteached head)
+
 - En `src/DeleteLibrarian.java`, cambia el nombre de la variable lblEnterId por lblEnterLibrarianId (en todas las líneas donde aparezca).
 - Crea un _commit_ con el cambio.
 
