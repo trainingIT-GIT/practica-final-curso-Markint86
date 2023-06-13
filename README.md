@@ -77,6 +77,7 @@ Para corregir el commit sin crear uno nuevo he usado **git commit --amend**
 - Crea un _commit_ para cada archivo (te deben quedar tres _commit_s).
 - Te has arrepentido: ahora crees que sería mejor que estuviera todo en un solo _commit_. Haz los pasos necesarios para que tu rama temporal tenga un solo _commit_, sin tocar nada del código de los archivos.
 - **¿Qué comandos has usado para conseguir el punto anterior?**
+Creo que el comando es un rebase interactivo , **git rebase -i HEAD~3** pero no tengo del todo claro como funciona, por lo que no he juntado los commits en uno solo (he subido la rama feature con los 3 commits). Si pudieses explicarme como se haría estaría agradecido.
 
 8. - Vuelven a pedirte que cambies la contraseña del admin (`src/AdminLogin.java`, línea 68) por esta otra: uV2?bbX4[3hFw
 - Crea un _commit_ con el cambio
