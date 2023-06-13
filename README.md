@@ -99,6 +99,7 @@ siguiente tarea.
 - Una vez desversionados (sacados del repositorio local), haz que el repositorio los ignore.
 - Crea un _commit_ con los cambios.
 - **¿Qué comandos has lanzado para los dos puntos anteriores?**
+He usado el comando **git rm -r --cached .settings/** para quitar del repositorio la carpeta `.settings` y **git rm --cached .project/** para quitarel archivo `.project`. Luego he creado la carpeta .gitignore y la he añadido los archivos. Por ultimo he hecho el commit de todos los cambios
 
 12. - Haz esta tarea sin crear una rama temporal (vamos a simular un error), crearás el _commit_ en develop.
 - En `src/LibrarianSuccess.java`, sustituye el texto del botón "Return book" por "Return a book".
