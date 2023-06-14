@@ -127,3 +127,4 @@ He hecho un cherry-pick del commit del punto 5 a la rama temporal feature que ab
 
 17. - Tanto en local como en remoto sólo deberían quedar las ramas _main_ y _develop_.
 - **Describe las acciones que has realizado y/o comandos que has lanzado para comprobarlo, y para borrar las ramas que se te hubieran quedado colgadas durante el ejercicio**
+Las ramas que se me han quedado colgadas en el repositorio local del tipo feature/ lashe ido borrando con el comando **git branch -d (nombre de la rama)** y en los casos necesarios he usado -D en vez de -d. Para comprobar que en el local solo me quedan las ramas _main_ y _develop_ he usado el comando **git branch** y para comprobar tambien las que me quedan en el remoto he usado el comando **git branch -avv** con el repositorio local completamente actualizado
