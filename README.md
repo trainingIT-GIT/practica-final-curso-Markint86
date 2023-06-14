@@ -111,6 +111,7 @@ He usado el comando **git reset --soft HEAD~1** para volver la rama develop al c
 13. - Te piden que vuelvas a dejar la contraseña del admin como la que metiste en el punto 5. Teniendo en cuenta que ya tienes el cambio registrado en un _commit_, **¿qué harías para volver a poner esa contraseña sin tocar el código?** Pista: lo que quieres hacer es aplicar en tu rama los cambios de un _commit_ aislado.
 - Te tendrá que quedar un _commit_ nuevo, y cabe la posibilidad de que tengas que
 resolver algún conflicto.
+He hecho un cherry-pick del commit del punto 5 a la rama temporal feature que abri.
 
 14. - En `src/DeleteLibrarian.java`, sustituye el label "Enter Id:" por "Enter librarian Id:" (esta vez sin errata).
 - Crea un _commit_ con el cambio.
